@@ -1,0 +1,32 @@
+body {
+  background-color: #343a4a;
+  display: flex;
+  justify-content: center;
+}
+
+.containers {
+  .times {
+    color: yellow;
+    font-size: 90px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    span.milliseconds,
+    span.small-colon {
+      font-size: 20px;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    button {
+      background-color: rgb(122, 114, 114, 0.5);
+      border-radius: 2px;
+      border: #343a4a;
+      color: white;
+      padding: 5px;
+    }
+  }
+}
